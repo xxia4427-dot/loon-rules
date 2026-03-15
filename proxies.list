@@ -1,0 +1,9 @@
+[Proxy]
+
+# 新加坡节点示例
+Singapore = ss, sg1.example.com, 443, encrypt-method=aes-128-gcm, password=yourpassword
+
+[Proxy Group]
+
+# 策略组
+SG = select, Singapore
