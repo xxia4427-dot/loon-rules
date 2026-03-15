@@ -1,0 +1,24 @@
+[Rule]
+
+# VibeMate 主站
+DOMAIN-SUFFIX,vibemate.ai,SG
+DOMAIN-SUFFIX,vibemate.com,SG
+DOMAIN-SUFFIX,vibemate.app,SG
+
+# API 服务
+DOMAIN-SUFFIX,api.vibemate.ai,SG
+DOMAIN-SUFFIX,api.vibemate.com,SG
+
+# CDN / 静态资源
+DOMAIN-SUFFIX,cdn.vibemate.ai,SG
+DOMAIN-SUFFIX,assets.vibemate.ai,SG
+
+# AI 接口
+DOMAIN-SUFFIX,openai.com,SG
+DOMAIN-SUFFIX,oaistatic.com,SG
+
+# 关键字规则
+KEYWORD,vibemate,SG
+
+# 默认规则
+FINAL,DIRECT
