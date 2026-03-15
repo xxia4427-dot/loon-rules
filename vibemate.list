@@ -1,0 +1,19 @@
+# AI Companion / VibeMate Rules
+
+PROCESS-NAME,VibeMate
+PROCESS-NAME,Replika
+PROCESS-NAME,Chai
+
+DOMAIN-SUFFIX,vibemate.com
+DOMAIN-SUFFIX,lovense.com
+DOMAIN-SUFFIX,lovense-api.com
+
+DOMAIN-KEYWORD,vibemate
+DOMAIN-KEYWORD,lovense
+
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,stripe.com
