@@ -1,0 +1,47 @@
+# =========================
+# VibeMate 全流量规则（新加坡节点专用）
+# Updated: 2026-03-16
+# =========================
+
+# ---- 节点策略组 ----
+[Policy]
+AI-Proxy = Singapore
+
+# ---- App 流量 ----
+PROCESS-NAME,VibeMate,AI-Proxy
+
+# ---- 主域名 ----
+DOMAIN-SUFFIX,vibemate.com,AI-Proxy
+DOMAIN-KEYWORD,vibemate,AI-Proxy
+
+# ---- Lovense 相关 ----
+DOMAIN-SUFFIX,lovense.com,AI-Proxy
+DOMAIN-SUFFIX,lovense-api.com,AI-Proxy
+DOMAIN-KEYWORD,lovense,AI-Proxy
+
+# ---- AI/聊天 API ----
+DOMAIN-SUFFIX,openai.com,AI-Proxy
+DOMAIN-SUFFIX,oaistatic.com,AI-Proxy
+DOMAIN-SUFFIX,anthropic.com,AI-Proxy
+DOMAIN-SUFFIX,character.ai,AI-Proxy
+
+# ---- WebSocket / Realtime ----
+DOMAIN-KEYWORD,ws,AI-Proxy
+DOMAIN-KEYWORD,socket,AI-Proxy
+DOMAIN-KEYWORD,realtime,AI-Proxy
+
+# ---- CDN / Cloud ----
+DOMAIN-SUFFIX,cloudflare.com,AI-Proxy
+DOMAIN-SUFFIX,cloudfront.net,AI-Proxy
+DOMAIN-SUFFIX,amazonaws.com,AI-Proxy
+DOMAIN-SUFFIX,fastly.net,AI-Proxy
+DOMAIN-SUFFIX,akamaized.net,AI-Proxy
+
+# ---- 支付 / API ----
+DOMAIN-SUFFIX,stripe.com,AI-Proxy
+DOMAIN-SUFFIX,api.stripe.com,AI-Proxy
+
+# ---- 其他 AI 服务 ----
+DOMAIN-SUFFIX,huggingface.co,AI-Proxy
+DOMAIN-SUFFIX,replicate.com,AI-Proxy
+DOMAIN-SUFFIX,openrouter.ai,AI-Proxy
